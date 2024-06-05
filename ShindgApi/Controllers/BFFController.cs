@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ShindgApi.Model.Comm;
 
 namespace ShindgApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("v1")]
     public class BFFController : ControllerBase
