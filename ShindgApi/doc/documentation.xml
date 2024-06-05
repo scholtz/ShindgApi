@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShindgApi</name>
+    </assembly>
+    <members>
+        <member name="P:ShindgApi.Model.Comm.Dashboard.IssuedNFTs">
+            <summary>
+            Sum of all issued NFTs
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.Comm.Dashboard.Revenue">
+            <summary>
+            Sum of revenue for all events
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.Comm.Dashboard.Currency">
+            <summary>
+            Currency of the revenue
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.Comm.Dashboard.Events">
+            <summary>
+            List of user events
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.Comm.EventOverview.Name">
+            <summary>
+            Event name
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.Comm.EventOverview.IssuedNFTs">
+            <summary>
+            Number of issued nfts for the specific event
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.Comm.EventOverview.NftsOnSale">
+            <summary>
+            Count of NFTs for this event which were not sold to the public yet
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.Comm.EventOverview.Revenue">
+            <summary>
+            Revenue
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.Comm.EventOverview.Currency">
+            <summary>
+            Currency of the revenue
+            </summary>
+        </member>
+        <member name="T:ShindgApi.Model.RestDWH.Event">
+            <summary>
+            Event
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Event.Name">
+            <summary>
+            Event Name 
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Event.Time">
+            <summary>
+            Time of the event
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Event.Place">
+            <summary>
+            Event location
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Event.NftId">
+            <summary>
+            ARC72 smart contract id
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Event.Price">
+            <summary>
+            Event ticket price
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Event.Currency">
+            <summary>
+            Event price in currency
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Event.Image">
+            <summary>
+            Image
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Event.State">
+            <summary>
+            Event state: Published|NotPublished
+            </summary>
+        </member>
+        <member name="T:ShindgApi.Model.RestDWH.Message">
+            <summary>
+            Discussion thread messages
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Message.Name">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Message.Text">
+            <summary>
+            Message
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Message.Time">
+            <summary>
+            Last update time
+            </summary>
+        </member>
+        <member name="T:ShindgApi.Model.RestDWH.NFT">
+            <summary>
+            Event
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.NFT.Name">
+            <summary>
+            Event Name 
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.NFT.Seat">
+            <summary>
+            Specific seat at the event
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.NFT.Area">
+            <summary>
+            Area of the seat
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.NFT.Price">
+            <summary>
+            NFT price
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.NFT.Currency">
+            <summary>
+            Currency
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.NFT.Image">
+            <summary>
+            Image
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.NFT.Uri">
+            <summary>
+            Event url address
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.NFT.State">
+            <summary>
+            NFT state: ON_SALE | NOT_CHECKED_IN | CHECKED_IN | CHECKED_OUT
+            </summary>
+        </member>
+        <member name="T:ShindgApi.Model.RestDWH.Thread">
+            <summary>
+            Discussion threads
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Thread.Name">
+            <summary>
+            Thread title
+            </summary>
+        </member>
+        <member name="P:ShindgApi.Model.RestDWH.Thread.Time">
+            <summary>
+            Last update time
+            </summary>
+        </member>
+    </members>
+</doc>
