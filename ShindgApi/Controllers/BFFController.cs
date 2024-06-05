@@ -42,5 +42,23 @@ namespace ShindgApi.Controllers
                 }
             };
         }
+
+        [HttpGet("event-check-in")]
+        public CheckInResult EventCheckIn()
+        {
+            return new CheckInResult()
+            {
+                Result = true
+            };
+        }
+        [HttpGet("event-check-out")]
+        public CheckInResult EventCheckOut()
+        {
+            return new CheckInResult()
+            {
+                Result = false,
+                Error = "Not in the event"
+            };
+        }
     }
 }
